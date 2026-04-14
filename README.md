@@ -30,20 +30,20 @@
 ## 安裝 Skill
 
 ```bash
-npx skills add Cerlancism/wenyan.skill
+npx skills add Cerlancism/wenyan.skill/skills/wenyan
 ```
 
 指定 agent：
 
 ```bash
-npx skills add Cerlancism/wenyan.skill -a claude-code
-npx skills add Cerlancism/wenyan.skill -a codex
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -a claude-code
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -a codex
 ```
 
 全局安裝（所有項目可用）：
 
 ```bash
-npx skills add Cerlancism/wenyan.skill -g
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -g
 ```
 
 安裝後，skill 定義在 `.agents/skills/wenyan/SKILL.md`，參考資料在 `.agents/skills/wenyan/references/`。

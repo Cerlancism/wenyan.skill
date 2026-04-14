@@ -30,20 +30,20 @@ Here stands factorial in a few lines: the function calls itself, the `若` claus
 ## Install
 
 ```bash
-npx skills add Cerlancism/wenyan.skill
+npx skills add Cerlancism/wenyan.skill/skills/wenyan
 ```
 
 Choose thine agent:
 
 ```bash
-npx skills add Cerlancism/wenyan.skill -a claude-code
-npx skills add Cerlancism/wenyan.skill -a codex
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -a claude-code
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -a codex
 ```
 
 Install it for every project:
 
 ```bash
-npx skills add Cerlancism/wenyan.skill -g
+npx skills add Cerlancism/wenyan.skill/skills/wenyan -g
 ```
 
 After install, the skill definition is at `.agents/skills/wenyan/SKILL.md` and references are at `.agents/skills/wenyan/references/`.
