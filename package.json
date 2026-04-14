@@ -1,0 +1,16 @@
+{
+  "name": "wenyan-skill",
+  "version": "1.0.0",
+  "description": "AI agent skill for writing, debugging, and migrating wenyan-lang code",
+  "private": true,
+  "scripts": {
+    "test:compile": "npx wenyan -c examples/*.wy",
+    "test:run": "npx wenyan examples/*.wy"
+  },
+  "keywords": ["wenyan", "文言", "classical-chinese", "ai-skill"],
+  "author": "Chen Yu",
+  "license": "MIT",
+  "devDependencies": {
+    "@wenyan/cli": "^0.3.4"
+  }
+}
