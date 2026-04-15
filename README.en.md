@@ -40,16 +40,6 @@ npx skills add Cerlancism/wenyan.skill/skills/wenyan -a claude-code
 npx skills add Cerlancism/wenyan.skill/skills/wenyan -a codex
 ```
 
-Install it for every project:
-
-```bash
-npx skills add Cerlancism/wenyan.skill/skills/wenyan -g
-```
-
-After install, the skill definition is at `.agents/skills/wenyan/SKILL.md` and references are at `.agents/skills/wenyan/references/`.
-
-For more install options, run `npx skills add --help`.
-
 ## What it does
 
 - Writes wenyan programs from specs or pseudocode

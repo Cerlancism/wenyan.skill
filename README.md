@@ -40,16 +40,6 @@ npx skills add Cerlancism/wenyan.skill/skills/wenyan -a claude-code
 npx skills add Cerlancism/wenyan.skill/skills/wenyan -a codex
 ```
 
-全局安裝（所有項目可用）：
-
-```bash
-npx skills add Cerlancism/wenyan.skill/skills/wenyan -g
-```
-
-安裝後，skill 定義在 `.agents/skills/wenyan/SKILL.md`，參考資料在 `.agents/skills/wenyan/references/`。
-
-更多安裝選項可查 `npx skills add --help`。
-
 ## 功能
 
 - 依規格或偽代碼撰寫文言程式
